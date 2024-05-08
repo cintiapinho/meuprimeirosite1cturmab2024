@@ -1,7 +1,117 @@
+/*
+Paleta de cores do mais claro para o mais escuro
+#00216f
+#0b3081
+#005ef8
+#0050e5
+#0041d2
+#0033be
+#0024ab
+*/
+
 body{
-    background-color: black;
+    background-image: url("../img/fundotudo.avif");
 }
 
 header{
-    background-color: aqua;
+    background-color: rgb(77,139,195);        
+}
+
+/* Classe Atribuída para a div que vai receber o logotipo */
+
+
+main{
+    background-color: #0b3081;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 1%;   
+    color: #fff;
+}
+
+
+.logotopo{
+    width: 10%;
+}
+
+footer{
+    background-color: rgb(112,48,160);       
+}
+
+.cabecalho{
+    padding: 3%;
+}
+.rodape{
+    padding: 3%;
+}
+
+.titulos{
+    font-family: "Salsa", cursive;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+p,li,table{
+    font-family: "Handlee", cursive;
+}
+
+p{
+    
+    line-height: 1.5;
+    font-size: 1.2em;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+td,th{
+    border: 5px dashed #f00;
+    padding: 1.5%;
+}
+
+/* essa faz uma linha cor sim cor não */
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+figure{
+   text-align: center;
+}
+
+legend{
+    margin-top:  0.6%;
+}
+
+.imgmeio{
+    width: 100%;
+}
+ .imggaleria{
+    width: 90%;
+} 
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col-3{
+    width: 25%;
 }
